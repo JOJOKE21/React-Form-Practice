@@ -1,0 +1,41 @@
+.froum{
+    display: flex;
+}
+
+.forum-inputs{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+width: 600px;
+  background-color:antiquewhite;
+  border-radius: 20px;
+  margin-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 5px 10px #888888;
+}
+
+.forum-results{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  padding-top: 20px;
+  box-shadow: 5px 10px #888888;
+}
+
+.input-field{
+  width: 300px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+
+.label{
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 5px;
+}
