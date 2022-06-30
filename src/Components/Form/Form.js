@@ -5,10 +5,6 @@ import './Form.css'
 
 export default function Form({ errorMessage, onChangeName, submit }) {
 
-
-
-
-
     return (
         <div className='froum'>
             <div className='forum-inputs'>

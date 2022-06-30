@@ -21,18 +21,18 @@ export default function App() {
     e.preventDefault();
     setResultText(inputDataName);
     if (!inputDataName.name || !inputDataName.phone || !inputDataName.b_day || !inputDataName.address || !inputDataName.todays_date) {
-        setErrorMessage("You have to complete the whole form!")
-        setHide(false)
+      setErrorMessage("You have to complete the whole form!")
+      setHide(false)
     } else if (resultText.name && resultText.phone && resultText.b_day && resultText.address && resultText.todays_date) {
-        setErrorMessage(" ")
-        setHide(true)
+      setErrorMessage(" ")
+      setHide(true)
     }
-}
+  }
 
   return (
     <div className="App">
 
-      <Form submit={submit} onChangeName={onChangeName} errorMessage={errorMessage}/>
+      <Form submit={submit} onChangeName={onChangeName} errorMessage={errorMessage} />
       {hide && <CopyForm resultText={resultText} />}
 
     </div>

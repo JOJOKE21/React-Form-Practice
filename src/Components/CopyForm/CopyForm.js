@@ -5,9 +5,8 @@ import './CopyForm.css'
 
 export default function CopyForm({ resultText }) {
 
-
     return (
-        
+
         <div className="froum">
             <div>
                 <div className='forum-results'>
